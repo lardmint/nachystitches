@@ -1,0 +1,21 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Slick Carousel Customization */
+.review-slider .slick-slide {
+  padding: 0 12px;
+}
+
+.review-slider .slick-list {
+  margin: 0 -12px;
+}
+
+.review-slider .slick-track {
+  display: flex;
+  align-items: stretch;
+}
+
+.review-slider .slick-slide > div {
+  height: 100%;
+}
